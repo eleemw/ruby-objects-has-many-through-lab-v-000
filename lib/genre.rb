@@ -22,7 +22,7 @@ class Genre
     songs.map {|song| song.artist}
   end
 
-  def add_song(song)
-    songs << song
-  end
+  # def add_song(song)
+  #   songs << song
+  # end
 end
