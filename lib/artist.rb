@@ -1,6 +1,6 @@
 # artist.#!/usr/bin/env ruby -wKU
 class Artist
-  attr_accessor :name, :genre
+  attr_accessor :name
   @@all = []
 
   def initialize(name)
